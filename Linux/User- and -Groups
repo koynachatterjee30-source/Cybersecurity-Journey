@@ -1,0 +1,156 @@
+# Linux Users and Groups
+
+Linux uses users and groups to control access to files, directories, and system resources.
+
+## User Commands
+
+whoami                         # Show current user
+id                             # Show user ID and groups
+who                            # Show logged-in users
+w                              # Show logged-in users and activity
+users                          # Show logged-in users
+last                           # Show login history
+passwd                         # Change current user password
+sudo passwd username           # Change another user's password
+su username                    # Switch to another user
+sudo -i                        # Switch to root shell
+exit                           # Exit current user/root shell
+
+## Create Users
+
+sudo adduser username          # Create a new user
+sudo useradd username          # Create user
+sudo useradd -m username       # Create user with home directory
+sudo passwd username           # Set user password
+
+## Delete Users
+
+sudo userdel username          # Delete user
+sudo userdel -r username       # Delete user and home directory
+
+## Modify Users
+
+sudo usermod -aG group username       # Add user to group
+sudo usermod -G group username        # Set user's groups
+sudo usermod -l newname oldname       # Rename user
+sudo usermod -d /home/newdir username  # Change home directory
+sudo usermod -s /bin/bash username     # Change login shell
+sudo usermod -L username               # Lock user
+sudo usermod -U username               # Unlock user
+
+## Group Commands
+
+groups                         # Show current user's groups
+groups username                # Show user's groups
+getent group                   # Show all groups
+id username                    # Show user and group information
+
+## Create Groups
+
+sudo groupadd groupname        # Create a group
+
+## Delete Groups
+
+sudo groupdel groupname        # Delete a group
+
+## Add User to Group
+
+sudo usermod -aG groupname username
+
+Example:
+
+sudo usermod -aG sudo john
+
+# Add john to the sudo group
+
+## Remove User from Group
+
+sudo gpasswd -d username groupname
+
+Example:
+
+sudo gpasswd -d john developers
+
+## Change Group Ownership
+
+sudo chgrp groupname file.txt
+
+sudo chgrp -R groupname folder/
+
+## Change User and Group Ownership
+
+sudo chown username file.txt
+
+sudo chown username:groupname file.txt
+
+sudo chown -R username:groupname folder/
+
+## View Users
+
+cat /etc/passwd
+
+# Shows user account information
+
+## View Groups
+
+cat /etc/group
+
+# Shows group information
+
+## Important Files
+
+/etc/passwd       # User account information
+/etc/shadow       # Encrypted user passwords
+/etc/group        # Group information
+/etc/sudoers      # Sudo permissions
+
+## Root User
+
+whoami                         # Check current user
+
+sudo -i                        # Open root shell
+
+su -                           # Switch to root (if enabled)
+
+exit                           # Exit root shell
+
+## Useful Examples
+
+sudo adduser student
+sudo passwd student
+sudo groupadd developers
+sudo usermod -aG developers student
+groups student
+id student
+sudo chown student:developers file.txt
+sudo chmod 755 file.txt
+
+## Important Commands
+
+whoami
+id
+who
+w
+groups
+adduser
+useradd
+userdel
+usermod
+passwd
+groupadd
+groupdel
+gpasswd
+chown
+chgrp
+sudo
+su
+
+## Key Point
+
+Users = Individual accounts
+
+Groups = Collection of users
+
+sudo = Run commands with elevated privileges
+
+root = Superuser with full system privileges
