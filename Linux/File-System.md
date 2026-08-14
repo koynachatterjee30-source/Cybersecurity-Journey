@@ -43,7 +43,7 @@ FILE SYSTEM STRUCTURE
 ├── usr
 └── var
 
-USEFUL FILE  SYSTEM COMMANDS
+USEFUL FILE SYSTEM COMMANDS
 
 pwd              # Show current location
 ls               # List files and folders
