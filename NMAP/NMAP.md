@@ -1,9 +1,9 @@
 NMAP (NETWORK MAPPER) - COMPLETE CYBERSECURITY NOTES
 
-Nmap stands for Network Mapper. It is an open-source network scanning and security auditing tool used to discover hosts, scan ports, identify running services and their versions, detect operating systems, map networks, and perform security assessment. Nmap is widely used by cybersecurity professionals, penetration testers, network administrators, and security researchers.
+Nmap stands for Network Mapper. It is an open-source network scanning and security auditing tool used to discover hosts, scan ports, identify running services and their versions, detect operating systems, map networks, and perform security assessment. Nmap is widely used by cybersecurity professionals, penetration testers, network administrators, and security resercher.
 
 LEGAL NOTICE:
-Only scan systems, networks, IP addresses, or websites that you own or have explicit permission to test. For practice, use your own computer, virtual machines, CTF platforms, or authorized labs.
+Only scan systems, networks, IP addresses, or websites that you own or have explicit permission to test. For practice, use your own computer, virtual machines, CTF , platforms, or authorized labs.
 
 1. INSTALLATION
 
