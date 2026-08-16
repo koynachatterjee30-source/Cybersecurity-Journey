@@ -1,10 +1,10 @@
-# MAC Address
+# MAC ADDRESS
 
 ## 1. What is a MAC Address?
 
 A MAC (Media Access Control) address is a unique hardware address assigned to a network interface. It is used to identify a device on a local network.
 
-Example:
+EXAMPLES
 
 `00:1A:2B:3C:4D:5E`
 
@@ -22,7 +22,7 @@ A switch uses MAC addresses to decide where to forward Ethernet frames.
 
 A MAC address is normally written as 6 groups of hexadecimal numbers.
 
-Example:
+EXAMPLES:
 
 `00:1A:2B:3C:4D:5E`
 
