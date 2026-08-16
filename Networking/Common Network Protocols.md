@@ -1,4 +1,4 @@
-# Common Network Protocols
+# COMMON NETWORK PROTOCOLS
 
 ## 1. What is a Network Protocol?
 
@@ -12,7 +12,7 @@ Protocols specify things such as:
 * How errors are handled
 * How communication is established
 
-Examples:
+EXAMPLES:
 
 * HTTP
 * HTTPS
@@ -43,7 +43,7 @@ DNS
 
 Without DNS, users would need to remember IP addresses instead of domain names.
 
-### Common DNS Port
+### COMMON DNS PORTS
 
 ```text
 UDP 53
