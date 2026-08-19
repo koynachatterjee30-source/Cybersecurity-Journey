@@ -7,7 +7,7 @@ Python is a high-level programming language widely used in cybersecurity for aut
 Variables store information in a program.
 
 ```python
-name = "Koyna"
+name = "koyna"
 age = 21
 ip = "192.168.1.10"
 port = 80
