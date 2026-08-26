@@ -1,0 +1,180 @@
+# Reconnaissance Basics
+
+Reconnaissance is the first phase of cybersecurity assessments, penetration testing, and vulnerability assessment. It involves collecting information about a target before performing further security testing. The goal is to understand the target's attack surface and identify useful information such as domains, IP addresses, subdomains, technologies, services, and publicly available information.
+
+## Why Reconnaissance is Important
+
+Reconnaissance helps security professionals understand the target environment and identify possible entry points. Proper reconnaissance can make security testing more organized and reduce unnecessary testing.
+
+Information that may be collected includes:
+
+- Domain names
+- Subdomains
+- IP addresses
+- DNS records
+- Open ports
+- Running services
+- Web technologies
+- Operating system information
+- Public email addresses
+- Usernames
+- Public documents
+- Network ranges
+- Security-related information
+
+## Types of Reconnaissance
+
+Reconnaissance is mainly divided into two types:
+
+### 1. Passive Reconnaissance
+
+Passive reconnaissance collects information without directly interacting with the target's systems.
+
+Examples:
+
+- Searching public websites
+- Search engine research
+- WHOIS information
+- DNS information from public sources
+- Social media research
+- Public GitHub repositories
+- Public documents and metadata
+- Search-engine operators
+
+Passive reconnaissance is generally less detectable because there is little or no direct interaction with the target.
+
+### 2. Active Reconnaissance
+
+Active reconnaissance involves directly interacting with the target system to gather information.
+
+Examples:
+
+- Port scanning
+- Service enumeration
+- Banner grabbing
+- DNS queries
+- Web server identification
+- Network discovery
+
+Tools commonly used for active reconnaissance include Nmap and other authorized security-testing tools.
+
+Active reconnaissance can generate traffic and may be detected by security monitoring systems.
+
+## Passive vs Active Reconnaissance
+
+| Passive Reconnaissance | Active Reconnaissance |
+|---|---|
+| Does not directly interact with the target | Directly interacts with the target |
+| Uses publicly available information | Sends requests or probes |
+| Less likely to be detected | More likely to be detected |
+| Search engines, WHOIS, public databases | Nmap, service enumeration |
+| Usually performed first | Usually performed after passive recon |
+
+## Reconnaissance Lifecycle
+
+A basic reconnaissance process can be organized as:
+
+1. Define the target and scope
+2. Collect publicly available information
+3. Identify domains and subdomains
+4. Discover IP addresses and network ranges
+5. Identify technologies and services
+6. Organize and analyze collected information
+7. Identify potential attack surfaces
+8. Document the findings
+
+## Attack Surface
+
+The attack surface represents the different points through which a system could potentially be attacked.
+
+During reconnaissance, security professionals may identify:
+
+- Websites
+- APIs
+- Subdomains
+- Open ports
+- Network services
+- Remote-access services
+- Cloud resources
+- Applications
+- Publicly exposed information
+
+Understanding the attack surface helps testers focus their security assessment.
+
+## Common Reconnaissance Tools
+
+Some commonly used tools include:
+
+- Nmap - Network discovery and port scanning
+- WHOIS - Domain registration information
+- nslookup - DNS queries
+- dig - DNS information gathering
+- Amass - Attack surface and subdomain discovery
+- Subfinder - Passive subdomain enumeration
+- theHarvester - Public information gathering
+- Recon-ng - Reconnaissance framework
+- WhatWeb - Web technology identification
+- Shodan - Search engine for internet-connected devices
+
+## Information Gathering Methodology
+
+A simple methodology is:
+
+### Step 1: Identify the Target
+
+Determine the authorized target, such as a domain, IP address, application, or network.
+
+### Step 2: Passive Information Gathering
+
+Collect publicly available information without directly probing the target.
+
+### Step 3: DNS and Domain Reconnaissance
+
+Identify DNS records, subdomains, and related infrastructure.
+
+### Step 4: Network Reconnaissance
+
+Identify IP addresses, open ports, and services where authorized.
+
+### Step 5: Technology Identification
+
+Determine the technologies, frameworks, web servers, and applications being used.
+
+### Step 6: Analyze the Results
+
+Organize the collected information and identify important security-relevant findings.
+
+### Step 7: Documentation
+
+Record the methodology, tools, findings, evidence, and recommendations.
+
+## Reconnaissance in VAPT
+
+In Vulnerability Assessment and Penetration Testing (VAPT), reconnaissance is performed before vulnerability testing.
+
+A typical workflow is:
+
+Reconnaissance → Enumeration → Vulnerability Assessment → Exploitation (if authorized) → Post-Exploitation → Reporting
+
+Reconnaissance helps testers understand the environment before attempting security tests.
+
+## Legal and Ethical Considerations
+
+Reconnaissance should only be performed on systems for which you have permission to test.
+
+Do not scan, enumerate, exploit, or collect sensitive information from systems without authorization.
+
+For learning purposes, use:
+
+- Your own systems
+- Local virtual machines
+- CTF platforms
+- Intentionally vulnerable applications
+- Authorized bug-bounty targets
+- Systems where you have written permission
+
+## Learning Objective
+
+The objective of this section is to understand how security professionals collect and analyze information about an authorized target before performing vulnerability assessment or penetration testing.
+
+Reconnaissance provides the foundation for understanding an organization's external attack surface and helps security professionals perform security assessments in a structured and responsible way.
