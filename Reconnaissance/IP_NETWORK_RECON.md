@@ -1,6 +1,6 @@
 # IP & Network Reconnaissance
 
-IP and Network Reconnaissance is the process of identifying and gathering information about IP addresses, network ranges, hosts, and network infrastructure associated with an authorized target.
+IP and Network Reconnaissance is the process of identifying and gathering information about IP addresses, network ranges, hosts, and network infrastructure associated with an authorized target .
 
 It helps cybersecurity professionals understand how systems are connected and identify the external network attack surface before performing further security testing.
 
