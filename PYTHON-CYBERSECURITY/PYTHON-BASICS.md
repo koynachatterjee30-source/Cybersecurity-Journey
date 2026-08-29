@@ -4,7 +4,7 @@ Python is a high-level programming language widely used in cybersecurity for aut
 
 ## 1. Variables and Data Types
 
-Variables store information in a program.
+Variables store information in a program .
 
 ```python
 name = "koyna"
