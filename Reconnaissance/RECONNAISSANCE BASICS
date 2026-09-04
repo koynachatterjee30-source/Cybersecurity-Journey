@@ -9,7 +9,7 @@ Reconnaissance helps security professionals understand the target environment an
 Information that may be collected includes:
 
 - Domain names
-- Subdomains
+- Subdomain
 - IP addresses
 - DNS records
 - Open ports
