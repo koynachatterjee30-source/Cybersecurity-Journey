@@ -14,7 +14,7 @@ An IP (Internet Protocol) Address is a unique numerical identifier assigned to a
 - 128-bit address
 - Example: 2001:0db8:85a3::8a2e:0370:7334
 
-## IP Address Classes
+## IP Address Classess
 
 ### Class A
 - Range: 1.0.0.0 – 126.255.255.255
