@@ -6,7 +6,7 @@ Script security means writing and executing Python or shell scripts safely while
 
 **What I learned:**
 
-* Understanding common security risks in scripts
+* Understanding common security risks in scripits
 * Validating and sanitizing user input
 * Handling passwords, API keys, and sensitive information securely
 * Using environment variables instead of hardcoding secrets
