@@ -6,7 +6,7 @@ Python automation means using Python programs to automatically perform repetitiv
 
 **What I learned:**
 
-* Automating repetitive tasks using Python
+* Automating repetitive tasks using python
 * Working with files and folders using `os` and `pathlib`
 * Reading and writing files using Python
 * Automating data processing with `csv` and `json`
