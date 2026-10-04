@@ -53,7 +53,7 @@ Scans hosts in the 192.168.1.0/24 network.
 
 nmap -sn 192.168.1.0/24
 
--sn performs host discovery without a normal port scan.
+-sn performs host discovery without a normal port scans.
 
 9. BASIC PORT SCAN
 
