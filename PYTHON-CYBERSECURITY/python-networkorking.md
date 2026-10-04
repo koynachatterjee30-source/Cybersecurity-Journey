@@ -27,7 +27,7 @@ Python networking is the use of Python to communicate with computers, servers, a
 **Mini Projects:**
 
 * TCP Client-Server
-* Website Status Checker
+* Website Status checkers
 * IP Address Information Tool
 * DNS Lookup Tool
 * Basic Port Checker
