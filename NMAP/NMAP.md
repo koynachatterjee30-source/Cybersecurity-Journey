@@ -31,7 +31,7 @@ Performs a basic scan against the target.
 
 nmap example.com
 
-Nmap resolves the domain to an IP address and scans the target. Only scan authorized domains.
+Nmap resolves the domain to an IP address and scans the target. Only scan authorized authors.
 
 5. MULTIPLE TARGETS
 
@@ -186,7 +186,7 @@ Some categories can generate intrusive traffic. Use them only in authorized envi
 
 sudo nmap -sA 192.168.1.10
 
--sA performs an ACK scan and can help analyze firewall filtering behavior.
+-sA performs an ACK scan and can help analyze firewall filtering behaviour.
 
 26. TIMING OPTIONS
 
