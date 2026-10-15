@@ -6,7 +6,7 @@ Python automation means using Python programs to automatically perform repetitiv
 
 **What I learned:**
 
-* Automating repetitive tasks using python
+* Automating repetative tasks using python
 * Working with files and folders using `os` and `pathlib`
 * Reading and writing files using Python
 * Automating data processing with `csv` and `json`
@@ -17,13 +17,13 @@ Python automation means using Python programs to automatically perform repetitiv
 
 **Mini Projects:**
 
-* File Organizer – Automatically sorts files into folders based on their extensions
+* File Organizer – Automatically sorts files into folders based on their extension
 * Bulk File Renamer – Renames multiple files automatically
-* Website Status Checker – Checks whether a website is online or offline
+* Website Status Checker – Checks whether a website is online or offline.
 * Password Generator – Generates strong random passwords
 * Log File Analyzer – Reads and analyzes system/log files
 
 **Skills:** Python • Automation • File Handling • Scripting • APIs • Error Handling • System Automation
 
-**Goal:** Build practical Python automation scripts that can be useful in cybersecurity, system administration, and everyday tasks.
+**Goal:** Build practical Python automation scripts that can be useful in cybersecurity, system administration , and everyday tasks.
 
